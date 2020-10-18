@@ -15,7 +15,7 @@ header {
 
 .box1 {
   background-color: white;
-  height: 90px;
+  height: 65px;
   grid-area: box1;
 }
 
@@ -89,23 +89,23 @@ nav ul li a:hover {
   justify-content: space-evenly;
   padding: 10px;
   font-size: 1.75rem;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .fa-search {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .fa-user {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 .fa-heart {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 .fa-shopping-cart {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 .fa-search:hover {
