@@ -8,24 +8,38 @@ body {
   color: #5e574d;
 }
 
-header {
+.container {
   display: grid;
-  grid-template-areas: "box1";
 }
 
 .box1 {
   background-color: white;
-  height: 65px;
+  height: 60px;
   grid-area: box1;
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+  top: 0;
+  padding: 20px;
+  padding-top: 0;
 }
 
 .box2 {
   background-image: url(../img/explorer.jpg);
   grid-area: box2;
-  height: 720px;
+  height: 700px;
   width: 1350x;
   background-size: cover;
   background-position: 50% 10%;
+}
+
+h1 {
+  position: relative;
+  top: 100px;
+  right: 300px;
+  text-align: center;
+  font-size: 6.25rem;
+  margin-top: 30px;
 }
 
 .box3 {
@@ -80,8 +94,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #f3cf7d;
-  text-decoration: transparent;
+  text-decoration: underline;
+  text-decoration-color: #aca885;
 }
 
 .icons {
@@ -128,11 +142,13 @@ nav ul li a:hover {
   text-decoration: transparent;
 }
 
+/*Footer */
 .customer-service {
   font-size: 20px;
   font-weight: bold;
   padding-left: 80px;
 }
+
 .footer-1 {
   font-size: 16px;
   list-style-type: none;
