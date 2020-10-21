@@ -12,8 +12,8 @@ body {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 10% 40% 1fr;
-  grid-template-rows: 10% 120% 80% 40%;
+  grid-template-columns: 30% 30% 1fr;
+  grid-template-rows: 10% 120% 200% 20%;
   grid-template-areas:
     "header header header"
     "main main main"
@@ -74,8 +74,9 @@ nav ul li a:hover {
 
 .signin {
   font-size: 0.875rem;
-  color: white;
-  background-color: #949072;
+  color: #5e574d;
+  background-color: #aca885;
+  font-weight: bold;
   border-radius: 4px;
   border: none;
   font-family: "Montserrat", sans-serif;
@@ -88,7 +89,7 @@ nav ul li a:hover {
 }
 
 .signin:hover {
-  background-color: #cfcdbe;
+  background-color: #b9b592;
   outline: none;
 }
 
@@ -110,17 +111,17 @@ nav ul li a:hover {
 }
 
 .fa-search:hover {
-  color: #b1aca6;
+  color: #6d6459;
   text-decoration: transparent;
 }
 
 .fa-heart:hover {
-  color: #b1aca6;
+  color: #6d6459;
   text-decoration: transparent;
 }
 
 .fa-shopping-cart:hover {
-  color: #b1aca6;
+  color: #6d6459;
   text-decoration: transparent;
 }
 
@@ -130,7 +131,7 @@ main {
   grid-area: main;
   width: 100%;
   background-image: url(../img/explorer.jpg);
-  height: 720px;
+  height: 670px;
   width: 1350x;
   background-size: cover;
 }
@@ -153,7 +154,7 @@ h1 {
 }
 
 .shopnow {
-  color: white;
+  color: #5e574d;
   background-color: #aca885;
   border-radius: 4px;
   border: none;
@@ -168,22 +169,33 @@ h1 {
 }
 
 .shopnow:hover {
-  background-color: #cfcdbe;
+  background-color: #b9b592;
   outline: none;
 }
 
 h2 {
-  margin-top: 450px;
-  margin-left: 40px;
-  font-size: 1.75rem;
+  background-color: #f2ebdc;
+  height: 100px;
+  margin: 40px;
+  margin-top: 390px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  box-shadow: 0 0 3px 0px #f2ebdc;
+}
+
+.jacket-container {
+  display: flex;
 }
 
 .rainjacket {
   display: inline-block;
   justify-content: space-evenly;
-  margin-left: 32px;
-  margin-top: 15px;
-  height: 380px;
+  margin-left: 46px;
+  margin-top: 10px;
+  height: 330px;
+  font-size: 1rem;
 }
 
 .price-text {
@@ -196,11 +208,105 @@ h2 {
   margin-top: 15px;
 }
 
+h3 {
+  font-size: 5.625rem;
+  background-color: #aca885;
+  height: 270px;
+  text-align: center;
+  box-shadow: 0 0 1px 0px #5e574d;
+  margin: 45px;
+  line-height: 250px;
+  text-decoration-line: underline;
+  margin-top: 60px;
+}
+
+.sale-img {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px;
+}
+
+.black-backpack {
+  height: 500px;
+}
+
+.sale-backpacks {
+  height: 500px;
+}
+
+.fox-backpack {
+  height: 500px;
+}
+
 /*FOOTER*/
 
 footer {
   grid-area: footer;
-  background-color: #d9c8b4;
+  background-color: #d9d0bf;
+  font-size: 0.875rem;
+  height: 350px;
+  display: flex;
+  flex-flow: row;
+}
+
+footer ul {
+  list-style: none;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+footer li a {
+  color: #5e574d;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.links {
+  margin-top: 20px;
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+.links2 {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+.socials {
+  font-size: 1.75rem;
+  margin-left: 5%;
+  margin-top: 22%;
+  text-align: center;
+}
+
+.fa-instagram {
+  padding-left: 15px;
+}
+
+.fa-youtube {
+  padding-left: 15px;
+}
+
+.fa-facebook-f:hover {
+  color: #6d6459;
+  text-decoration: transparent;
+}
+
+.fa-instagram:hover {
+  color: #6d6459;
+  text-decoration: transparent;
+}
+
+.fa-youtube:hover {
+  color: #6d6459;
+  text-decoration: transparent;
 }
 
 @media (max-width: 1200px) {
