@@ -1,0 +1,65 @@
+@import url(//db.onlinewebfonts.com/c/3a025ae92e6446cec24efcb6d29e5bf3?family=Malgun+Gothic);
+
+body {
+  font-size: 1.5rem;
+  font-family: "malgun gothic", sans-serif;
+  color: #5e574d;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "hero hero hero"
+    "main main main"
+    "footer footer footer";
+}
+
+main {
+  grid-area: hero;
+  width: 100%;
+  background-image: url(../../img/explorer.jpg);
+  height: 670px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 991px) {
+  /*Tablet*/
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /*Mobile*/
+
+  body {
+    width: fit-content;
+  }
+
+  main {
+    min-width: 100%;
+  }
+
+  .logo {
+    width: 200px;
+    text-align: center;
+  }
+
+  .fa-search {
+    text-align: left;
+  }
+
+  nav {
+    width: 100%;
+    display: none;
+    text-align: center;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
+}

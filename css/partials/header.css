@@ -1,0 +1,100 @@
+header {
+  grid-area: header;
+  background-color: white;
+  height: 90px;
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  width: 250px;
+  height: 90px;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+}
+
+nav {
+  margin-top: 2px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #5e574d;
+  text-decoration: none;
+  font-size: 1.125rem;
+  margin: 25px;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid #aca885;
+  padding-bottom: 4px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.signin {
+  font-size: 0.875rem;
+  color: #5e574d;
+  background-color: #aca885;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 6px;
+  outline: none;
+  margin-right: 80px;
+  margin-top: 30px;
+  width: 65%;
+  box-shadow: 0 0 3px 0px #5e574d;
+}
+
+.signin:hover {
+  background-color: #b9b592;
+  outline: none;
+}
+
+.icons {
+  margin: 25px;
+  font-size: 1.75rem;
+}
+
+.fa-search {
+  padding-left: 10px;
+}
+
+.fa-heart {
+  padding-left: 15px;
+}
+
+.fa-shopping-cart {
+  padding-left: 15px;
+}
+
+.fa-search:hover {
+  color: #6d6459;
+  text-decoration: transparent;
+}
+
+.fa-heart:hover {
+  color: #6d6459;
+  text-decoration: transparent;
+}
+
+.fa-shopping-cart:hover {
+  color: #6d6459;
+  text-decoration: transparent;
+}
