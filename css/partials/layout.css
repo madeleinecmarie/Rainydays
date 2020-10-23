@@ -9,16 +9,22 @@ body {
     "header header header"
     "hero hero hero"
     "main main main"
+    "jacket jacket jacket"
+    "form form form"
     "footer footer footer";
 }
 
-main {
+.homepage-main {
   grid-area: hero;
   width: 100%;
   background-image: url(../../img/explorer.jpg);
   height: 670px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.jacket {
+  grid-area: jacket;
 }
 
 @media (max-width: 991px) {

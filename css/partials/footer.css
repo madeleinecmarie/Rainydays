@@ -1,0 +1,126 @@
+footer {
+  grid-area: footer;
+  background-color: #d9d0bf;
+  font-size: 0.875rem;
+  position: sticky;
+}
+
+.box-container {
+  grid-area: form;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  height: 155px;
+}
+
+.box0 {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.h3-signup {
+  font-size: 1.375rem;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.input-subscribe,
+.subscribe {
+  box-shadow: 0 0 3px 0px #5e574d;
+  border: none;
+  border-radius: 4px;
+  color: #5e574d;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.input-subscribe {
+  width: 270px;
+}
+
+.subscribe {
+  width: 100px;
+  background-color: #aca885;
+}
+
+.subscribe:hover {
+  background-color: #b9b592;
+  outline: none;
+}
+
+.footer-grid {
+  display: grid;
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+  grid-template-areas: "links1 links2 links3 links4";
+}
+
+.links {
+  grid-area: links;
+  flex-direction: column;
+  text-align: center;
+}
+
+.links2 {
+  grid-area: links2;
+  text-align: center;
+}
+
+.links3 {
+  grid-area: links3;
+  text-align: center;
+}
+
+.links4 {
+  grid-area: links4;
+  text-align: center;
+}
+
+.socials {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li a {
+  color: #5e574d;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+.fa-instagram {
+  padding-left: 10px;
+}
+
+.fa-youtube {
+  padding-left: 10px;
+}
+
+.fa-facebook-f:hover {
+  color: #6d6459;
+  text-decoration: transparent;
+}
+
+.fa-instagram:hover {
+  color: #6d6459;
+  text-decoration: transparent;
+}
+
+.fa-youtube:hover {
+  color: #6d6459;
+  text-decoration: transparent;
+}
