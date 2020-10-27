@@ -1,16 +1,17 @@
 header {
   grid-area: header;
   background-color: white;
-  height: 90px;
+  height: 80px;
+  width: 100%;
   position: fixed;
   z-index: 50;
-  width: 100%;
+  overflow: hidden;
   align-items: center;
 }
 
 .logo-container {
   display: flex;
-  width: 250px;
+  width: 260px;
   height: 90px;
   margin-right: 40px;
   align-items: center;

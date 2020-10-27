@@ -1,0 +1,70 @@
+.checkout {
+  display: grid;
+  grid-template-areas:
+    "main"
+    "main"
+    "main"
+    "form"
+    "footer";
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "mountain"
+    "paragraph";
+}
+
+.img-mountain {
+  grid-area: mountain;
+  text-align: center;
+  margin-top: 12%;
+}
+
+.success-mountain {
+  height: 200px;
+}
+
+.h1-thankyou {
+  grid-area: paragraph;
+  text-align: center;
+  margin: 20px;
+}
+
+.h1-success {
+  font-size: 1.625rem;
+  margin-bottom: 5px;
+}
+
+.paragraph-text {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.button-shopping {
+  text-align: center;
+}
+
+.continue-shopping {
+  color: #5e574d;
+  background-color: #aca885;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 20%;
+  padding: 8px;
+  outline: none;
+  box-shadow: 0 0 3px 0px #5e574d;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+
+.underline-account {
+  text-decoration: underline;
+}
+
+.continue-shopping:hover {
+  background-color: #b9b592;
+  outline: none;
+}

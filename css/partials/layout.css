@@ -9,22 +9,8 @@ body {
     "header header header"
     "hero hero hero"
     "main main main"
-    "jacket jacket jacket"
     "form form form"
     "footer footer footer";
-}
-
-.homepage-main {
-  grid-area: hero;
-  width: 100%;
-  background-image: url(../../img/explorer.jpg);
-  height: 670px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.jacket {
-  grid-area: jacket;
 }
 
 @media (max-width: 991px) {
@@ -32,6 +18,18 @@ body {
 
   footer {
     width: 100%;
+  }
+
+  ul {
+    font-size: 1rem;
+  }
+  nav {
+    width: 80%;
+    padding-top: 10px;
+  }
+
+  .logo {
+    padding-left: 10px;
   }
 }
 
@@ -59,13 +57,5 @@ body {
     width: 100%;
     display: none;
     text-align: center;
-  }
-
-  #hamburger-menu {
-    display: none;
-  }
-
-  #hamburger-menu:checked ~ nav {
-    display: block;
   }
 }

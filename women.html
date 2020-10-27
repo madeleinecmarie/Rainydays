@@ -1,11 +1,11 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Hiking gear online shop" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rainydays</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
@@ -16,12 +16,16 @@
     ></script>
   </head>
   <body>
-    <header class="box1">
-      <section class="navigation">
-        <div class="logo"></div>
+    <header>
+      <div class="navigation">
+        <div class="logo-container">
+          <a href="index.html">
+            <img src="img/logo.png" alt="logo" class="logo" />
+          </a>
+        </div>
         <nav>
           <ul>
-            <li><a href="women.html" class="current">Women</a></li>
+            <li><a href="women.html">Women</a></li>
             <li><a href="men.html">Men</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -29,18 +33,168 @@
         </nav>
         <div class="icons">
           <i class="fas fa-search"></i>
-          <i class="far fa-user"></i>
           <i class="fas fa-heart"></i>
           <i class="fas fa-shopping-cart"></i>
         </div>
         <div>
           <button class="signin">Sign in</button>
         </div>
-      </section>
+      </div>
     </header>
-    <main>
-      <section></section>
+    <main class="main-woman">
+      <!-- <div class="card">
+        <img
+          src="/img/greenjacket.jpg"
+          alt="green jacket"
+          class="jacketsimage"
+        />
+      </div> -->
+      <aside>
+        <div>
+          <h1 class="h1-womens">Shop Women's</h1>
+        </div>
+        <div class="border-bottom"></div>
+        <div>
+          <ul class="categorie-links">
+            <li class="underline"><a href="">All categories</a></li>
+            <li class="underline"><a href="">Jackets</a></li>
+            <li class="underline"><a href="">Outdoor trousers</a></li>
+            <li class="underline"><a href="">Shoes</a></li>
+            <li class="underline"><a href="">Backpacks</a></li>
+            <li class="underline"><a href="">Sleepingbags</a></li>
+            <li class="underline"><a href="">Hammocks</a></li>
+            <li class="underline"><a href="">Tents</a></li>
+          </ul>
+        </div>
+        <div class="border-bottom"></div>
+        <div class="sizes-container">
+          <div class="sizes">
+            <input type="checkbox" name="sizes" value="XS" id="extrasmall" />
+            <span>XS</span>
+          </div>
+          <div class="sizes">
+            <input type="checkbox" name="sizes" value="S" id="small" />
+            <span>S</span>
+          </div>
+          <div class="sizes">
+            <input type="checkbox" name="sizes" value="M" id="medium" />
+            <span>M</span>
+          </div>
+          <div class="sizes">
+            <input type="checkbox" name="sizes" value="L" id="large" />
+            <span>L</span>
+          </div>
+          <div class="sizes">
+            <input type="checkbox" name="sizes" value="XL" id="extralarge" />
+            <span>XL</span>
+          </div>
+          <div class="border-bottom2"></div>
+          <div class="colour-container"></div>
+          <div class="colour">
+            <input
+              type="checkbox"
+              name="colour"
+              value="black"
+              id="blackcolour"
+            />
+            <span>Black</span>
+          </div>
+          <div class="colour">
+            <input type="checkbox" name="colour" value="red" id="redcolour" />
+            <span>Red</span>
+          </div>
+          <div class="colour">
+            <input type="checkbox" name="colour" value="pink" id="pinkcolour" />
+            <span>Pink</span>
+          </div>
+          <div class="colour">
+            <input
+              type="checkbox"
+              name="colour"
+              value="green"
+              id="greencolour"
+            />
+            <span>green</span>
+          </div>
+          <div class="colour">
+            <input
+              type="checkbox"
+              name="colour"
+              value="yellow"
+              id="yellowcolour"
+            />
+            <span>Yellow</span>
+          </div>
+          <div class="colour">
+            <input type="checkbox" name="colour" value="blue" id="bluecolour" />
+            <span>Blue</span>
+          </div>
+          <div class="colour">
+            <input
+              type="checkbox"
+              name="sizes"
+              value="brown"
+              id="browncolour"
+            />
+            <span>Brown</span>
+          </div>
+        </div>
+      </aside>
     </main>
-    <footer></footer>
+
+    <section class="box-container">
+      <div class="box0">
+        <h3 class="h3-signup">Sign up for our newsletter</h3>
+        <form action="submit.php" method="POST">
+          <input class="input-subscribe" type="text" name="firstname" />
+          <input class="subscribe" type="submit" value="Subscribe" />
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-links">
+          <ul class="links">
+            <h4>Customer service</h4>
+            <li><a href="">Delivery and returns</a></li>
+            <li><a href="">Orders</a></li>
+            <li><a href="">Payment</a></li>
+            <li><a href="">Gift card</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <ul class="links2">
+            <h4>Rainydays</h4>
+            <li><a href="">Career</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Collaborations</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <ul class="links3">
+            <h4>Conditions</h4>
+            <li><a href="">Terms and conditions</a></li>
+            <li><a href="">Privacy and cookies</a></li>
+            <li><a href="">Accessibility</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <ul class="links4">
+            <h4>Rainydays</h4>
+            <li><a href="">Career</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Collaborations</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-links">
+        <ul class="socials">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </ul>
+      </div>
+    </footer>
   </body>
-</html> -->
+</html>
