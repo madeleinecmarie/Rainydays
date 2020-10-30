@@ -1,0 +1,131 @@
+.specific-box-container {
+  display: grid;
+  grid-template-areas: "specific-box specific-box2 specific-box3";
+  margin-bottom: 6%;
+}
+
+.specific-box {
+  grid-area: specific-box;
+  margin-left: 40px;
+}
+
+.specific-box2 {
+  grid-area: specific-box2;
+}
+
+.specific-box3 {
+  grid-area: specific-box3;
+  width: 60%;
+  margin-left: 60px;
+}
+
+.yellowcoat {
+  height: 480px;
+  margin-top: 150px;
+  margin-left: 40px;
+}
+
+.name-price {
+  margin-top: 145px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h1-specific {
+  font-size: 1.125rem;
+  margin: 0px;
+}
+
+.specific-price {
+  font-size: 1.125rem;
+}
+
+.specific-description {
+  font-size: 0.9375rem;
+}
+
+.description-jacket {
+  margin-top: 20px;
+}
+
+.colour-wheel {
+  font-size: 0.875rem;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.yellowbutton {
+  background-color: #f3cf7d;
+  border: none;
+  padding: 17px 15px;
+  border-radius: 2px;
+  outline: none;
+  margin-left: 4px;
+}
+
+.redbutton {
+  background-color: #db1b27;
+  border: none;
+  padding: 17px 15px;
+  border-radius: 2px;
+}
+
+.greenbutton {
+  background-color: #949072;
+  border: none;
+  padding: 17px 15px;
+  border-radius: 2px;
+}
+
+.blackbutton {
+  background-color: #383532;
+  border: none;
+  padding: 17px 15px;
+  border-radius: 2px;
+}
+
+.brownbutton {
+  background-color: #b85445;
+  border: none;
+  padding: 17px 15px;
+  border-radius: 2px;
+}
+
+.size-chart {
+  font-size: 0.8125rem;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+.size-guide {
+  color: #5e574d;
+}
+
+.size-guide:hover {
+  font-weight: bold;
+}
+
+.size-button {
+  width: 50px;
+  padding: 8px;
+  font-size: 0.8125rem;
+  margin: 4px;
+  margin-top: 40px;
+  border-radius: 4px;
+  border: solid 1px lightgray;
+  color: #5e574d;
+  background-color: white;
+  outline: none;
+}
+
+.add {
+  width: 96%;
+  background-color: #aca885;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  color: #5e574d;
+  padding: 8px;
+  margin-top: 16px;
+  margin-left: 4px;
+}

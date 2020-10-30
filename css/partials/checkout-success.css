@@ -2,8 +2,6 @@
   display: grid;
   grid-template-areas:
     "main"
-    "main"
-    "main"
     "form"
     "footer";
 }

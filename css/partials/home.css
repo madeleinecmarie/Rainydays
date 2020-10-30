@@ -24,7 +24,7 @@ p {
 .imagetext {
   position: absolute;
   top: 140px;
-  left: 145px;
+  left: 150px;
 }
 
 .shopnow {
@@ -73,6 +73,10 @@ p {
   grid-template-areas:
     "headline headline headline headline"
     "jacketcard jacketcard1 jacketcard2 jacketcard3";
+}
+
+.jacket__heading {
+  grid-area: headline;
 }
 
 .cardimage {

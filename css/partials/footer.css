@@ -2,7 +2,7 @@ footer {
   grid-area: footer;
   background-color: #d9d0bf;
   font-size: 0.875rem;
-  position: sticky;
+  /* position: sticky; */
 }
 
 .box-container {

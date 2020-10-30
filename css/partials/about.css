@@ -1,0 +1,22 @@
+.about {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "main"
+    "form"
+    "footer";
+}
+
+.aboutus-main {
+  grid-area: main;
+  margin-top: 8%;
+}
+
+.about-grid {
+  grid-area: main;
+  display: grid;
+  grid-template-areas:
+    "about-card about-card2"
+    "about-card3 about-card4";
+}

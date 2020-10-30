@@ -1,0 +1,86 @@
+@media (max-width: 991px) {
+  /*Tablet*/
+
+  .jacket {
+    grid-area: jackets;
+    display: grid;
+    grid-template-areas:
+      "headline headline"
+      "jacketcard jacketcard1"
+      "jacketcard2 jacketcard3";
+  }
+  footer {
+    width: 100%;
+  }
+  .salesbox-3 {
+    display: none;
+  }
+  .salesbox-4 {
+    display: none;
+  }
+
+  .logo {
+    width: 80%;
+    margin-left: 20px;
+  }
+
+  .logo-container {
+    margin-right: 0px;
+  }
+
+  ul {
+    margin: 20px;
+    width: 110%;
+    padding-left: 0px;
+  }
+
+  nav ul li a {
+    font-size: 0.9375rem;
+    margin-left: 0px;
+  }
+
+  .icons {
+    font-size: 1.125rem;
+    width: 20%;
+    margin: 30px;
+    margin-right: 60px;
+  }
+
+  .signin {
+    display: none;
+  }
+
+  .hero-container {
+  }
+
+  .imagetext {
+    top: 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  /*Mobile*/
+
+  body {
+    width: fit-content;
+  }
+
+  main {
+    min-width: 100%;
+  }
+
+  .logo {
+    width: 200px;
+    text-align: center;
+  }
+
+  .fa-search {
+    text-align: left;
+  }
+
+  nav {
+    width: 100%;
+    display: none;
+    text-align: center;
+  }
+}

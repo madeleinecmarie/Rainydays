@@ -6,56 +6,9 @@ body {
   color: #5e574d;
   display: grid;
   grid-template-areas:
-    "header header header"
-    "hero hero hero"
-    "main main main"
-    "form form form"
-    "footer footer footer";
-}
-
-@media (max-width: 991px) {
-  /*Tablet*/
-
-  footer {
-    width: 100%;
-  }
-
-  ul {
-    font-size: 1rem;
-  }
-  nav {
-    width: 80%;
-    padding-top: 10px;
-  }
-
-  .logo {
-    padding-left: 10px;
-  }
-}
-
-@media (max-width: 767px) {
-  /*Mobile*/
-
-  body {
-    width: fit-content;
-  }
-
-  main {
-    min-width: 100%;
-  }
-
-  .logo {
-    width: 200px;
-    text-align: center;
-  }
-
-  .fa-search {
-    text-align: left;
-  }
-
-  nav {
-    width: 100%;
-    display: none;
-    text-align: center;
-  }
+    "header"
+    "hero"
+    "main"
+    "form"
+    "footer";
 }
