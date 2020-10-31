@@ -37,7 +37,8 @@ p {
   width: 60%;
   padding: 8px;
   outline: none;
-  box-shadow: 0 0 3px 0px #5e574d;
+  /* box-shadow: 0 0 3px 0px #5e574d; */
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.3);
   margin-left: 60px;
   margin-top: 45px;
 }

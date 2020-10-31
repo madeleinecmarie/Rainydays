@@ -64,7 +64,8 @@ nav ul li a:hover {
   margin-right: 100px;
   margin-top: 30px;
   width: 65%;
-  box-shadow: 0 0 3px 0px #5e574d;
+  /* box-shadow: 0 0 3px 0px #5e574d; */
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.6);
 }
 
 .signin:hover {
@@ -77,10 +78,7 @@ nav ul li a:hover {
   font-size: 1.375rem;
 }
 
-.fa-search {
-  padding-left: 15px;
-}
-
+.fa-search,
 .fa-heart {
   padding-left: 15px;
 }
@@ -89,16 +87,8 @@ nav ul li a:hover {
   padding-left: 20px;
 }
 
-.fa-search:hover {
-  color: #6d6459;
-  text-decoration: transparent;
-}
-
-.fa-heart:hover {
-  color: #6d6459;
-  text-decoration: transparent;
-}
-
+.fa-search:hover,
+.fa-heart:hover,
 .fa-shopping-cart:hover {
   color: #6d6459;
   text-decoration: transparent;

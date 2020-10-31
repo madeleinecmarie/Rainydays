@@ -50,11 +50,13 @@
     display: none;
   }
 
-  .hero-container {
-  }
-
   .imagetext {
     top: 90px;
+  }
+
+  .specific-box2 {
+    grid-area: specific-box2;
+    display: none;
   }
 }
 
