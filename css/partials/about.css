@@ -1,22 +1,42 @@
-.about {
+.about_container {
   display: grid;
-  grid-template-areas:
-    "header"
-    "main"
-    "main"
-    "form"
-    "footer";
+  grid-template-areas: "about-text about-image";
+  margin-top: 10%;
+  margin-bottom: 4%;
 }
 
-.aboutus-main {
-  grid-area: main;
-  margin-top: 8%;
+.about_box1 {
+  grid-area: about-text;
+  width: 95%;
 }
 
-.about-grid {
-  grid-area: main;
-  display: grid;
-  grid-template-areas:
-    "about-card about-card2"
-    "about-card3 about-card4";
+.about_box2 {
+  grid-area: about-image;
+}
+
+.h1_about {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.h2_about {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* .about_img {
+} */
+
+.mountainhiker_img {
+  height: 460px;
+  margin-right: 20px;
+}
+
+.about_text,
+.h2_child {
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }

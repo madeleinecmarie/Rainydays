@@ -58,6 +58,18 @@
     grid-area: specific-box2;
     display: none;
   }
+
+  .about_container {
+    display: grid;
+    grid-template-areas:
+      "about-text"
+      "about-image";
+  }
+
+  .mountainhiker_img {
+    height: 460px;
+    margin-left: 40px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -84,5 +96,19 @@
     width: 100%;
     display: none;
     text-align: center;
+  }
+
+  .about_box1 {
+    grid-area: about-text;
+    width: 95%;
+  }
+
+  .mountainhiker_img {
+    height: 215px;
+    margin-left: 18px;
+  }
+
+  .h1_about {
+    margin-top: 15%;
   }
 }
