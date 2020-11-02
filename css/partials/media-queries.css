@@ -70,6 +70,45 @@
     height: 460px;
     margin-left: 40px;
   }
+
+  .button_message {
+    width: 25%;
+    margin-left: 44%;
+  }
+
+  .contact_container {
+    display: grid;
+    grid-template-areas:
+      "box_1"
+      "box_2";
+    margin-bottom: 5%;
+  }
+
+  .headline_1 {
+    margin-top: 20%;
+    margin-bottom: 0%;
+  }
+
+  .h2_contact,
+  .opening_hours {
+    text-align: center;
+  }
+
+  .contact_box2 {
+    grid-area: box_2;
+    margin: auto;
+    margin-top: 15%;
+  }
+
+  .textbox_form {
+    margin-left: 2px;
+  }
+
+  .button_message {
+    margin-top: 2%;
+    width: 99%;
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -110,5 +149,85 @@
 
   .h1_about {
     margin-top: 15%;
+  }
+
+  .img-mountain {
+    margin-top: 25%;
+  }
+
+  .continue-shopping {
+    width: 22%;
+    font-size: 0.875rem;
+  }
+
+  .headline_1 {
+    margin-top: 30%;
+    margin-bottom: 10%;
+  }
+
+  .h2_contact,
+  .opening_hours {
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .input-subscribe,
+  .subscribe {
+    display: flex;
+    margin: auto;
+  }
+
+  .subscribe {
+    margin-top: 4%;
+    width: 30%;
+  }
+  .box0 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .checkout-container {
+    display: grid;
+    grid-template-areas:
+      "cart"
+      "discount"
+      "information";
+  }
+
+  .checkout-box {
+    grid-area: cart;
+    width: 75%;
+  }
+
+  .checkout-box4 {
+    grid-area: information;
+    width: 100%;
+  }
+
+  .border-line,
+  .border-line2 {
+    margin: auto;
+    width: 360px;
+    margin-top: 30px;
+  }
+
+  .other_forms {
+    width: 90%;
+  }
+
+  .payment_cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+  }
+
+  .place_order {
+    width: 84%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+  }
+
+  .h3_payment {
+    text-align: center;
   }
 }

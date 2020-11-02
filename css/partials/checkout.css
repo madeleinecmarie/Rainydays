@@ -1,13 +1,13 @@
 .checkout-container {
   display: grid;
   grid-template-areas:
-    "cart information"
-    "discount information";
+    "cart information information"
+    "discount information information";
 }
 
 .checkout-box {
   grid-area: cart;
-  width: 80%;
+  width: 95%;
 }
 
 .checkout-box2 {
@@ -20,7 +20,7 @@
 
 .checkout-box4 {
   grid-area: information;
-  width: 100%;
+  width: 95%;
 }
 
 /* .h1-shopping-cart {
@@ -48,7 +48,7 @@
 }
 
 .cart-info {
-  margin-left: 40px;
+  margin-left: 25px;
   margin-top: 8px;
   font-size: 1.125rem;
   font-weight: bold;
@@ -68,7 +68,7 @@
   padding: 0px;
   margin: 0px;
   /* margin-left: 20px; */
-  width: 18%;
+  width: 23%;
   border: solid 1px lightgray;
   color: #5e574d;
   background-color: white;
@@ -211,21 +211,13 @@
   font-size: 0.875rem;
 }
 
-/* .vertical_line {
-  border-left: solid 1px #acacac;
-  position: relative;
-  height: 810px;
-  right: 20%;
-  margin-top: 25%;
-} */
-
 .forms_customer {
-  margin-top: 22%;
+  margin-top: 18%;
 }
 
 .h2_customerinfo {
   font-size: 1.125rem;
-  margin-right: 20%;
+  margin-left: 2%;
 }
 
 .h1_shoppingcart {
@@ -233,3 +225,100 @@
   margin-left: 60px;
   margin-top: 15%;
 }
+
+.account_signin {
+  font-size: 0.9375rem;
+  display: flex;
+  margin-bottom: 40px;
+  margin-left: 2%;
+}
+
+.signin_account {
+  text-align: center;
+  color: #5e574d;
+  margin-left: 10px;
+}
+
+.signin_account:hover {
+  font-weight: bold;
+}
+
+.names,
+.other_forms {
+  height: 32px;
+  border-radius: 6px;
+  border: solid 1px #f3f3f3;
+  outline: none;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.4);
+  margin: 8px;
+  margin-top: 20px;
+}
+
+.names {
+  width: 41.5%;
+  margin-right: 0px;
+}
+
+.other_forms {
+  width: 87%;
+}
+
+.save_information {
+  margin: 10px;
+}
+
+.h3_payment {
+  font-size: 1.125rem;
+  margin-top: 15%;
+  margin-left: 2%;
+}
+
+.payment_cards {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 8%;
+}
+
+.fa-cc-visa,
+.fa-cc-mastercard,
+.fa-cc-paypal,
+.fa-apple-pay {
+  font-size: 3.125rem;
+}
+
+.fa-cc-visa:hover,
+.fa-cc-mastercard:hover,
+.fa-cc-paypal:hover,
+.fa-apple-pay:hover {
+  color: #787168;
+}
+
+.place_order {
+  font-size: 0.875rem;
+  color: #5e574d;
+  background-color: #aca885;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  padding: 8px;
+  outline: none;
+  margin-left: 2%;
+  margin-top: 7%;
+  width: 50%;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.6);
+}
+
+.place_order:hover {
+  background-color: #b9b592;
+  outline: none;
+}
+
+/* .vertical_line {
+  border-left: solid 1px #acacac;
+  /* position: relative; */
+/* height: 810px;
+  right: 20%;
+  margin-top: 25%;
+} */

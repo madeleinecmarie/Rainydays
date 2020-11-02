@@ -1,0 +1,94 @@
+.contact_container {
+  display: grid;
+  grid-template-areas: "box_1 box_2";
+  margin-bottom: 5%;
+}
+
+.contact_box {
+  grid-area: box_1;
+  margin: auto;
+  width: 80%;
+}
+
+.contact_box2 {
+  grid-area: box_2;
+  margin-top: 20%;
+}
+
+.headline_1 {
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.h1_contact {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contact_text,
+.mail_support,
+.address_support,
+.opening_hours {
+  font-size: 1rem;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.mail_support {
+  margin-top: 4%;
+}
+
+.opening_hours {
+  margin-top: 6%;
+}
+
+.h2_contact {
+  font-size: 1.25rem;
+}
+
+.form_contact {
+  height: 32px;
+  width: 310px;
+  border-radius: 6px;
+  border: solid 1px #f3f3f3;
+  outline: none;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.4);
+  /* margin: 8px; */
+  margin-top: 20px;
+}
+
+.textbox_form {
+  resize: none;
+  border-radius: 6px;
+  border: solid 1px #f3f3f3;
+  outline: none;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.4);
+  margin-top: 20px;
+}
+
+.button_message {
+  font-size: 0.875rem;
+  color: #5e574d;
+  background-color: #aca885;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  padding: 8px;
+  outline: none;
+  margin-top: 2%;
+  width: 47%;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.6);
+}
+
+.button_message:hover {
+  background-color: #b9b592;
+  outline: none;
+}
+
+.fa-envelope-open,
+.fa-phone-alt,
+.fa-map-marker-alt {
+  font-size: 1.75rem;
+  color: #aca885;
+}
